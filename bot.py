@@ -2,7 +2,9 @@ from pyrogram import Client, filters
 import markovify
 import random
 
-app = Client("my_account")
+api_id = 0
+api_hash = ""
+app = Client("my_account", api_id=api_id, api_hash=api_hash)
 
 channels = []
 
